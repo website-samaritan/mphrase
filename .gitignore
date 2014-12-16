@@ -2,3 +2,4 @@ MvcWebRole1/bin/*
 MvcWebRole1/obj/
 MvcWebRole1.Tests/obj/
 packages/
+MvcWebRole1.Tests/bin/

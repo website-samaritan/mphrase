@@ -1,0 +1,2 @@
+C:\inetpub\wwwroot\mphrase\mphrase\bin\Debug\ServiceConfiguration.cscfg
+C:\inetpub\wwwroot\mphrase\mphrase\bin\Debug\ServiceDefinition.csdef
