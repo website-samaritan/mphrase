@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace MvcWebRole1
+namespace mphraseWebRole
 {
 	public class BundleConfig
 	{

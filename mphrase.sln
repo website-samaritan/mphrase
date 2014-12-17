@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "mphrase", "mphrase\mphrase.ccproj", "{E38DC8FE-0829-4EA4-B9F9-C4D9E222F31B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWebRole1", "MvcWebRole1\MvcWebRole1.csproj", "{31DF88AA-F98C-46CC-9BF6-722C4EE93E77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mphraseWebRole", "mphraseWebRole\mphraseWebRole.csproj", "{31DF88AA-F98C-46CC-9BF6-722C4EE93E77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWebRole1.Tests", "MvcWebRole1.Tests\MvcWebRole1.Tests.csproj", "{16691871-844A-4F0F-9BF9-C3F0C141678F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mphraseWebRole.Tests", "mphraseWebRole.Tests\mphraseWebRole.Tests.csproj", "{16691871-844A-4F0F-9BF9-C3F0C141678F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{411B503A-FC93-4779-A62B-55FF8ED78787}"
 	ProjectSection(SolutionItems) = preProject

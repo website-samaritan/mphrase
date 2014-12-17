@@ -1,6 +1,6 @@
 using System.Web.Mvc;
 
-namespace MvcWebRole1.Areas.PublicFace.Controllers
+namespace mphraseWebRole.Areas.PublicFace.Controllers
 {
 	public class HomeController : Controller
 	{

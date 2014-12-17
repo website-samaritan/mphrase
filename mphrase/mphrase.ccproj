@@ -37,20 +37,20 @@
     <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MvcWebRole1\MvcWebRole1.csproj">
-      <Name>MvcWebRole1</Name>
+    <ProjectReference Include="..\mphraseWebRole\mphraseWebRole.csproj">
+      <Name>mphraseWebRole</Name>
       <Project>{31df88aa-f98c-46cc-9bf6-722c4ee93e77}</Project>
       <Private>True</Private>
       <RoleType>Web</RoleType>
-      <RoleName>MvcWebRole1</RoleName>
+      <RoleName>mphraseWebRole</RoleName>
       <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="MvcWebRole1Content\" />
+    <Folder Include="mphraseWebRoleContent\" />
   </ItemGroup>
   <ItemGroup>
-    <DiagnosticsConfiguration Include="MvcWebRole1Content\diagnostics.wadcfgx" />
+    <DiagnosticsConfiguration Include="mphraseWebRoleContent\diagnostics.wadcfgx" />
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>

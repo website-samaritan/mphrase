@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Web.Http;
 
-namespace MvcWebRole1.Areas.Api.Controllers
+namespace mphraseWebRole.Areas.Api.Controllers
 {
 	public class ValuesController : ApiController
 	{

@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace MvcWebRole1.Areas.Api
+namespace mphraseWebRole.Areas.Api
 {
 	public class ApiAreaRegistration : AreaRegistration
 	{

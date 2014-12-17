@@ -5,3 +5,7 @@ MvcWebRole1.Tests/bin/
 packages/
 node_modules/
 mphrase/
+mphraseWebRole.Tests/bin/
+mphraseWebRole.Tests/obj/
+mphraseWebRole/bin/
+mphraseWebRole/obj/

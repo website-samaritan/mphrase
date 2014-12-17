@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace MvcWebRole1.Areas.PublicFace
+namespace mphraseWebRole.Areas.PublicFace
 {
 	public class PublicFaceAreaRegistration : AreaRegistration
 	{

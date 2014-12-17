@@ -123,7 +123,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MvcWebRole1\MvcWebRole1.csproj">
+    <ProjectReference Include="..\mphraseWebRole\mphraseWebRole.csproj">
       <Project>{31DF88AA-F98C-46CC-9BF6-722C4EE93E77}</Project>
       <Name>MvcWebRole1</Name>
     </ProjectReference>
