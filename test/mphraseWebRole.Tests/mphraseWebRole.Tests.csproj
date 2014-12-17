@@ -9,8 +9,8 @@
     <ProjectGuid>{16691871-844A-4F0F-9BF9-C3F0C141678F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MvcWebRole1.Tests</RootNamespace>
-    <AssemblyName>MvcWebRole1.Tests</AssemblyName>
+    <RootNamespace>mphraseWebRole.Tests</RootNamespace>
+    <AssemblyName>mphraseWebRole.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -123,9 +123,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\mphraseWebRole\mphraseWebRole.csproj">
+    <ProjectReference Include="..\..\web\mphraseWebRole\mphraseWebRole.csproj">
       <Project>{31DF88AA-F98C-46CC-9BF6-722C4EE93E77}</Project>
-      <Name>MvcWebRole1</Name>
+      <Name>mphraseWebRole</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
