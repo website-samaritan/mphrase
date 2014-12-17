@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{411B503A-FC93-4779-A62B-55FF8ED78787}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		nuget.config = nuget.config
 		package.json = package.json
 		README.md = README.md
 	EndProjectSection

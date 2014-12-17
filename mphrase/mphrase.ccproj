@@ -49,9 +49,6 @@
   <ItemGroup>
     <Folder Include="mphraseWebRoleContent\" />
   </ItemGroup>
-  <ItemGroup>
-    <DiagnosticsConfiguration Include="mphraseWebRoleContent\diagnostics.wadcfgx" />
-  </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
