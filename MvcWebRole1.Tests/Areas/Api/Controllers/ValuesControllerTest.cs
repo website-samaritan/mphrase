@@ -1,14 +1,9 @@
-﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Web.Http;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MvcWebRole1;
-using MvcWebRole1.Controllers;
+using MvcWebRole1.Areas.Api.Controllers;
 
-namespace MvcWebRole1.Tests.Controllers
+namespace MvcWebRole1.Tests.Areas.Api.Controllers
 {
 	[TestClass]
 	public class ValuesControllerTest
