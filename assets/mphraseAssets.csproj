@@ -58,7 +58,6 @@
     <Folder Include="js\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\reset.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -67,7 +66,9 @@
   <ItemGroup>
     <None Include="lib\default.js" />
     <None Include="index.html" />
-    <Content Include="sass\reset.scss" />
+    <Content Include="sass\styles.scss" />
+    <Content Include="sass\_colors.scss" />
+    <Content Include="sass\_reset.scss" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
