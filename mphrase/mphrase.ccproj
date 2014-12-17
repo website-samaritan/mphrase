@@ -37,7 +37,7 @@
     <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\mphraseWebRole\mphraseWebRole.csproj">
+    <ProjectReference Include="..web\mphraseWebRole\mphraseWebRole.csproj">
       <Name>mphraseWebRole</Name>
       <Project>{31df88aa-f98c-46cc-9bf6-722c4ee93e77}</Project>
       <Private>True</Private>
