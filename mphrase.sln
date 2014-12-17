@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{4912F506-8B3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DBB68356-42FD-45F4-B491-569B0C481316}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{AF88305C-0D74-4026-B9FF-73750A2066FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mphraseAssets", "assets\mphraseAssets.csproj", "{BC6D1812-9E2E-4EAE-AA9A-D9B48CC9E1E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,10 @@ Global
 		{16691871-844A-4F0F-9BF9-C3F0C141678F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16691871-844A-4F0F-9BF9-C3F0C141678F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16691871-844A-4F0F-9BF9-C3F0C141678F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6D1812-9E2E-4EAE-AA9A-D9B48CC9E1E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6D1812-9E2E-4EAE-AA9A-D9B48CC9E1E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6D1812-9E2E-4EAE-AA9A-D9B48CC9E1E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6D1812-9E2E-4EAE-AA9A-D9B48CC9E1E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +52,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{31DF88AA-F98C-46CC-9BF6-722C4EE93E77} = {4912F506-8B35-42B9-80CB-36BBCF9BBE6D}
 		{16691871-844A-4F0F-9BF9-C3F0C141678F} = {DBB68356-42FD-45F4-B491-569B0C481316}
+		{BC6D1812-9E2E-4EAE-AA9A-D9B48CC9E1E5} = {AF88305C-0D74-4026-B9FF-73750A2066FE}
 	EndGlobalSection
 EndGlobal

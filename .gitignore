@@ -6,3 +6,6 @@ web/mphraseWebRole/obj/
 test/mphraseWebRole.Tests/bin/
 test/mphraseWebRole.Tests/obj/
 lib/
+assets/bin/
+*.csproj.user
+assets/obj/
