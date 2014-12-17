@@ -14,6 +14,8 @@ namespace MvcWebRole1.Areas.Api
 
 		public override void RegisterArea(AreaRegistrationContext context)
 		{
+
+			// TODO: Values controller isn't being routed to.
 			context.MapRoute(
 				"Api_default",
 				"Api/{controller}/{action}/{id}",

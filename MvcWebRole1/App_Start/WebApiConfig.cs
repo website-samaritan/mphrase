@@ -9,6 +9,7 @@ namespace MvcWebRole1
 	{
 		public static void Register(HttpConfiguration config)
 		{
+			// TODO: Values controller isn't being routed to.
 			config.Routes.MapHttpRoute(
 				name: "DefaultApi",
 				routeTemplate: "api/{controller}/{id}",
