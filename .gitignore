@@ -9,3 +9,5 @@ lib/
 assets/bin/
 *.csproj.user
 assets/obj/
+.sass-cache/*
+**/.sass-cache/*

@@ -1,4 +1,5 @@
 module.exports = function (grunt) {
+	'use strict';
 
 	grunt.initConfig({
 		jshint: {
@@ -12,12 +13,23 @@ module.exports = function (grunt) {
 		watch: {
 			files: ['<%= jshint.files %>'],
 			tasks: ['jshint']
+		},
+		sass: {
+			dist: {
+				options: {
+					style: 'expanded'
+				},
+				files: {
+					'web/mphraseWebRole/css/site.css': 'assets/sass/styles.scss'
+				}
+			}
 		}
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-
-	grunt.registerTask('default', ['jshint']);
+	grunt.loadNpmTasks('grunt-contrib-sass');
+	
+	grunt.registerTask('default', ['jshint', 'sass']);
 
 };
