@@ -1,0 +1,27 @@
+﻿blockquote {
+	color: $primary;
+	background-color: $primary-back;
+	border: solid 1px $primary-border;
+	padding: 1em .5em;
+
+	p {
+		clear: both;
+		&:before {
+			content: "\""
+		}
+		&:after {
+			content: "\""
+		}
+	}
+
+	cite {
+		display: bloc;
+		clear: both;
+		margin: -.5em .5em;
+		float: right;
+		&:before {
+			content: "- "
+		}
+		color: $secondary;
+	}
+}

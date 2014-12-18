@@ -52,4 +52,34 @@ table {
   border-spacing: 0;
 }
 
+.primary {
+  color: #767f7f;
+}
+
+blockquote {
+  color: #767f7f;
+  background-color: #edfdff;
+  border: solid 1px #bdcacc;
+  padding: 1em .5em;
+}
+blockquote p {
+  clear: both;
+}
+blockquote p:before {
+  content: '"';
+}
+blockquote p:after {
+  content: '"';
+}
+blockquote cite {
+  display: bloc;
+  clear: both;
+  margin: -.5em .5em;
+  float: right;
+  color: #28767f;
+}
+blockquote cite:before {
+  content: "- ";
+}
+
 /*# sourceMappingURL=site.css.map */

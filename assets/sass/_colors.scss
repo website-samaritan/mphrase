@@ -1,5 +1,9 @@
-$primary-back: #767f7f;
+$primary-back: #edfdff;
 $hilight: #3beaff;
-$primary: #edfdff;
+$primary: #767f7f;
 $secondary: #28767f;
 $primary-border: #bdcacc;
+
+.primary {
+	color: $primary;
+}
