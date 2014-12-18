@@ -8,7 +8,8 @@ namespace mphraseWebRole
 		// For more information on Bundling, visit http://go.microsoft.com/fwlink/?LinkId=254725
 		public static void RegisterBundles(BundleCollection bundles)
 		{
-			bundles.Add(new StyleBundle("~/css"));
+			bundles.Add(new StyleBundle("~/css")
+				            .Include("~/css/site.css"));
 		}
 	}
 }
