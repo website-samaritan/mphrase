@@ -18,11 +18,15 @@
 </div>
 
 <script type="text/javascript">
-	var data = [30, 50, 10],
+	var data = [30, 60, 10],
 		width = 400,
 		height = 400,
 
-		canvas = d3.select(".d3-container").append('svg'),
+		container = d3.select('.d3-container'),
+		canvas = container.append('svg'),
+		
+		barGroup = canvas.append('g')
+			.attr('transform', 'translate(20, 10)'),
 		
 		bar = {
 			height: 50,
@@ -35,14 +39,22 @@
 			.range([0, width]),
 		colorScale = d3.scale.linear()
 			.domain([0, 60])
-			.range(['red', 'blue']);
+			.range(['red', 'blue']),
+		axis = d3.svg.axis()
+			.scale(widthScale)
+			.ticks(5);
 
-	canvas.attr({
-		width: width + 50,
-		height: height
-	});
+	canvas
+		.attr({
+			width: width + 50,
+			height: height
+		});
+
+	barGroup.append('g')
+		.attr('transform', 'translate(0, 180)')
+		.call(axis);
 	
-	canvas.selectAll('rect')
+	barGroup.selectAll('rect')
 		.data(data)
 		.enter()
 			.append('rect')
