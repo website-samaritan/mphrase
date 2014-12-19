@@ -8,3 +8,4 @@ Prerequisites:
 * Grunt
 * Ruby
 * Sass
+* Bower

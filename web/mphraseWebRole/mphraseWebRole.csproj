@@ -179,6 +179,8 @@
     <Compile Include="WebRole.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\foundation.css" />
+    <Content Include="css\normalize.css" />
     <Content Include="css\readme.txt" />
     <Content Include="css\site.css" />
     <Content Include="favicon.ico" />
@@ -208,6 +210,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\site.css.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\foundation.css.map" />
+    <Content Include="css\normalize.css.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

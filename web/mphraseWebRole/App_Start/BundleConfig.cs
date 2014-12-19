@@ -9,6 +9,8 @@ namespace mphraseWebRole
 		public static void RegisterBundles(BundleCollection bundles)
 		{
 			bundles.Add(new StyleBundle("~/css")
+				            .Include("~/css/normalize.css")
+				            .Include("~/css/foundation.css")
 				            .Include("~/css/site.css"));
 		}
 	}

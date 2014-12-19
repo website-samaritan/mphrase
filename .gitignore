@@ -7,3 +7,4 @@ lib/NuGet
 *.csproj.user
 .sass-cache/*
 **/.sass-cache/*
+**/bower_components/*
