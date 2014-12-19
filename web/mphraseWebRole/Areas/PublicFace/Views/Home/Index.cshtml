@@ -18,55 +18,67 @@
 </div>
 
 <script type="text/javascript">
-	var data = [30, 60, 10],
-		width = 400,
-		height = 400,
+	(function (d3) {
+		'use strict';
 
-		container = d3.select('.d3-container'),
-		canvas = container.append('svg'),
-		
-		barGroup = canvas.append('g')
-			.attr('transform', 'translate(20, 10)'),
-		
-		bar = {
-			height: 50,
-			padding: 10
-		},
-		unitWidth = 10,
-		
-		widthScale = d3.scale.linear()
-			.domain([0, 50])
-			.range([0, width]),
-		colorScale = d3.scale.linear()
-			.domain([0, 60])
-			.range(['red', 'blue']),
-		axis = d3.svg.axis()
-			.scale(widthScale)
-			.ticks(5);
+		var data = [30, 60, 10],
+			max = Math.max.apply(null, data),
+			width = 400,
+			height = 400,
+			bar = {
+				height: 50,
+				padding: 10
+			},
 
-	canvas
-		.attr({
-			width: width + 50,
-			height: height
-		});
+			// Composite elements
+			container = d3.select('.d3-container'),
+			canvas = container.append('svg'),
+			chart = canvas.append('g')
+				.attr({
+					title: 'Bar Chart',
+					transform: 'translate(20, 10)'
+				}),
+			barGroup = chart.append('g')
+				.attr('title', 'Bar Group'),
+			
+			// Scales
+			widthScale = d3.scale.linear()
+				.domain([0, max])
+				.range([0, width]),
+			colorScale = d3.scale.linear()
+				.domain([0, max])
+				.range(['red', 'blue']),
 
-	barGroup.append('g')
-		.attr('transform', 'translate(0, 180)')
-		.call(axis);
+			// Axes
+			axis = d3.svg.axis()
+				.scale(widthScale)
+				.ticks(5);
+
+			canvas
+				.attr({
+					width: width + 50,
+					height: height
+				});
+
+			chart.append('g')
+				.attr('transform', 'translate(0, 180)')
+				.call(axis);
+
+			barGroup.selectAll('rect')
+				.data(data)
+				.enter()
+				.append('rect')
+				.attr({
+					height: bar.height,
+
+					width: widthScale,
+
+					y: function (value, index) {
+						return index * (bar.height + bar.padding);
+					},
+
+					fill: colorScale
+				});
+	})(d3);
 	
-	barGroup.selectAll('rect')
-		.data(data)
-		.enter()
-			.append('rect')
-			.attr({
-				height: bar.height,
-				
-				width: widthScale,
-				
-				y: function(value, index) {
-					return index * (bar.height + bar.padding);
-				},
-				
-				fill: colorScale
-			});
 </script>
